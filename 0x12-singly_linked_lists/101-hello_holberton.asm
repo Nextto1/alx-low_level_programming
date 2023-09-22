@@ -6,4 +6,4 @@ main:
 	  call  printf
 	  mov   eax, 0
 	  ret
-format: db `Hello, Holberton\n`,0x0A  ; The string to print
+format: db `Hello, Holberton\n`,0  ; The string to print
