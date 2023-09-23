@@ -7,5 +7,4 @@ main:
 	  call  printf
 	  mov   eax, 0
 	  ret
-hello db 'Hello, Holberton\n', 0 ; The string to be printed
-format db "%s",0 ;format specifier for printf,null-terminated
+format db 'Hello, Holberton\n', 0 ; The string to be printed
