@@ -1,8 +1,6 @@
-section .data
-	hello db 'Hello, Holberton\n', 0 ; The string to be printed
-	format db "%s",0 ;format specifier for printf,null-terminated
+hello db 'Hello, Holberton\n', 0 ; The string to be printed
+format db "%s",0 ;format specifier for printf,null-terminated
 
-section .text
 	extern printf
 	global main
 main:
